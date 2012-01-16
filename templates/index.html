@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Big Mike</title>
+
+        {% assets "all-css" %}
+        <link rel="stylesheet" href="{{ASSET_URL}}" type="text/css" media="screen" />
+        {% endassets %}
+
+        {% assets "all-js" %}
+        <script type="text/javascript" src="{{ASSET_URL}}"></script>
+        {% endassets %}
+    </head>
+    <body>
+        <div id="title"><h1>Big Mike Gregory</h1></div>
+        <div id="links">
+            <p>Welcome to my world. Welcome to my world. Blha hlah blah.</p>
+            <ul>
+                <li><a href="http://bigmikegregory.wordpress.com/about/">About</a></li>
+                <li><a href="http://bigmikegregory.wordpress.com/">Blog</a></li>
+                <li><a class="twitter" target="_blank"
+                    href="http://twitter.com/bigmikecfc">@BigMikeCFC</a></li>
+            </ul>
+        </div>
+        <div id="slogan">Results.</div>
+    </body>
+</html>
