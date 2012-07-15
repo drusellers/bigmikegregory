@@ -8,26 +8,26 @@ $black:#333;
 
 @font-face {
     font-family: 'Capture_it';
-    src: url('../type/Capture_it.ttf') format('truetype');
+    src: url('../../type/Capture_it.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'LeagueGothic';
-    src: url('../type/League_Gothic-webfont.ttf') format('truetype');
+    src: url('../../type/League_Gothic-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Vollkorn';
-    src: url('../type/Vollkorn-Regular-webfont.ttf') format('truetype');
+    src: url('../../type/Vollkorn-Regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 html { 
-    background:url('../../images/bigmike3.jpg') no-repeat center center fixed;
+    background:url('../../images/bigmike4.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,7 +53,13 @@ html {
         font-family:'Vollkorn';
         margin-bottom:1em;
     }
-
+    
+    ul {
+        list-style-type:none;
+        margin:0;
+        padding:0;
+    }
+    
     a
     {
         font-size:2em;
@@ -78,14 +84,16 @@ html {
     font-size:6em;
     position:absolute;
     bottom:50px;
-    right:25%;
+    right:8%;
     font-family:'Capture_it';
 }
 
 #title
 {
     //.center-block;
-    font-size:8em;
+    font-size:4em;
     font-family:'LeagueGothic';
-    
+    h1 {
+        margin:0;
+    }
 }
