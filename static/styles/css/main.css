@@ -15,14 +15,23 @@ body {
   font-style: normal; }
 
 @font-face {
+  font-family: 'ArmaliteRifleRegular';
+  src: url("../../type/armalite_rifle-webfont.eot");
+  src: url("../../type/armalite_rifle-webfont.eot?#iefix") format("embedded-opentype"), url("../../type/armalite_rifle-webfont.woff") format("woff"), url("../../type/armalite_rifle-webfont.ttf") format("truetype"), url("../../type/armalite_rifle-webfont.svg#ArmaliteRifleRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
   font-family: 'LeagueGothic';
-  src: url("../../type/League_Gothic-webfont.ttf") format("truetype");
+  src: url("../../type/League_Gothic-webfont.eot");
+  src: url("../../type/League_Gothic-webfont.eot?#iefix") format("embedded-opentype"), url("../../type/League_Gothic-webfont.woff") format("woff"), url("../../type/League_Gothic-webfont.ttf") format("truetype"), url("../../type/League_Gothic-webfont.svg#LeagueGothicRegular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Vollkorn';
-  src: url("../../type/Vollkorn-Regular-webfont.ttf") format("truetype");
+  src: url("../../type/Vollkorn-Regular-webfont.eot");
+  src: url("../../type/Vollkorn-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../type/Vollkorn-Regular-webfont.woff") format("woff"), url("../../type/Vollkorn-Regular-webfont.ttf") format("truetype"), url("../../type/Vollkorn-Regular-webfont.svg#VollkornRegular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -57,7 +66,7 @@ html {
     font-size: 2em;
     color: #333333;
     text-decoration: none;
-    font-family: 'Capture_it'; }
+    font-family: 'ArmaliteRifleRegular'; }
   #links a:hover {
     color: #f00; }
   #links .twitter {
@@ -70,7 +79,7 @@ html {
   position: absolute;
   bottom: 50px;
   right: 8%;
-  font-family: 'Capture_it'; }
+  font-family: 'ArmaliteRifleRegular'; }
 
 #title {
   font-size: 4em;
